@@ -1,0 +1,311 @@
+body,
+html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.bg {
+    background: url(./image/image\ 6.png);
+    width: 100%;
+    height: auto;
+    flex-shrink: 0;
+}
+
+.bg .logo {
+    background: rgba(21, 21, 21, 0.65);
+    box-shadow: 0px 0px 0px 0px #312116;
+    height: 100%;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.bg .logo .lg {
+    width: 152px;
+    height: 60px;
+    flex-shrink: 0;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav ul {
+    display: flex;
+    gap: 25px;
+    list-style: none;
+}
+
+nav ul li a {
+    color: #FFF;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 61px;
+    text-decoration: none;
+}
+
+.text-one {
+    width: 759px;
+    height: 58px;
+    flex-shrink: 0;
+    margin-top: 100px;
+}
+
+.text-one p {
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 55px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 61px;
+    /* 110.909% */
+}
+
+.text-one span {
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 23px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.logo .rectangle {
+    width: 100%;
+    height: 80%;
+    flex-shrink: 0;
+    background-color: #1B1B1B;
+    border-radius: 16px;
+    padding: 40px;
+    margin-top: 100px;
+}
+
+.rectangle a {
+    text-decoration: none;
+}
+
+/*Responsive Tasarım*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .bg {
+        background: url(./image/image\ 6.png);
+        width: auto;
+        height: 100%;
+        flex-shrink: 0;
+    }
+
+    .bg .logo {
+        background: rgba(21, 21, 21, 0.65);
+        box-shadow: 0px 0px 0px 0px #312116;
+        height: 100%;
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+
+    nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: stretch;
+        padding-top: 25px;
+    }
+
+    .bg .lg img {
+        width: 20%;
+        height: auto;
+        flex-shrink: 0;
+    }
+
+    nav ul {
+        display: flex;
+        gap: 25px;
+        list-style: none;
+    }
+
+    nav ul li a {
+        color: #FFF;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: 61px;
+        text-decoration: none;
+    }
+
+    .logo .text-one {
+        width: 525px;
+        height: 58px;
+        flex-shrink: 0;
+        margin-top: 100px;
+    }
+
+    .logo .text-one p {
+        color: #FFF;
+        font-family: Montserrat;
+        font-size: 40px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: 61px;
+    }
+
+    .text-one span {
+        color: #FFF;
+        font-family: Montserrat;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+
+    .logo .rectangle {
+        width: 100%;
+        height: 80%;
+        flex-shrink: 0;
+        background-color: #1B1B1B;
+        border-radius: 16px;
+        padding: 40px;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+
+    .bg {
+        background: url(./image/image\ 6.png);
+        width: 100%;
+        height: auto;
+        flex-shrink: 0;
+    }
+
+    .text-one {
+        width: 501px;
+        height: 58px;
+        flex-shrink: 0;
+        margin-top: 100px;
+    }
+
+    .text-one p {
+        color: #FFF;
+        font-family: Montserrat;
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: 61px;
+    }
+
+    .text-one span {
+        color: #FFF;
+        font-family: Montserrat;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+
+    .logo .rectangle {
+        width: 80%;
+        height: 100%;
+        flex-shrink: 0;
+        background-color: #1B1B1B;
+        border-radius: 16px;
+        padding: 40px;
+        transform: translate(0px, 0px);
+    }
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+    nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    nav ul li a {
+        color: #FFF;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 10px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: 61px;
+        text-decoration: none;
+    }
+
+    .bg .logo {
+        background: rgba(21, 21, 21, 0.65);
+        box-shadow: 0px 0px 0px 0px #312116;
+        height: 100%;
+        padding-left: 50px;
+        padding-right: 100px;
+    }
+
+    .bg .logo .lg {
+        width: 50px;
+        height: 25px;
+        flex-shrink: 0;
+    }
+
+    .text-one {
+        width: 200px;
+        height: 58px;
+        flex-shrink: 0;
+        margin-top: 50px;
+    }
+
+    .text-one p {
+        color: #FFF;
+        font-family: Montserrat;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: 30px;
+    }
+
+    .text-one span {
+        color: #FFF;
+        font-family: Montserrat;
+        font-size: 10px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+
+    .logo .rectangle {
+        width: 30vh;
+        height: auto;
+        flex-shrink: 0;
+        background-color: #1B1B1B;
+        border-radius: 16px;
+        padding: 40px;
+        margin-top: 50px;
+    }
+
+    .logo .row .card {
+        width: 8rem !important;
+        background: #282828;
+        color: white;
+        margin: 25px auto !important;
+    }
+
+    .logo .row .card .card-body span,
+    p {
+        color: #FFF;
+        font-family: Montserrat;
+        font-size: 10px !important;
+        font-style: normal;
+        font-weight: 900;
+        line-height: 29px;
+        /* 111.538% */
+    }
+
+    .logo .row .card .card-text span,
+    p {
+        color: #FFF;
+        font-family: Montserrat;
+        font-size: 10px !important;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 29px;
+    }
+}
