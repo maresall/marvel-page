@@ -222,10 +222,17 @@ nav ul li a {
         align-items: center;
     }
 
+    nav ul {
+        display: flex;
+        gap: 25px;
+        list-style: none;
+        margin-top: 15px;
+    }
+
     nav ul li a {
         color: #FFF;
         font-family: 'Montserrat', sans-serif;
-        font-size: 10px;
+        font-size: 14px;
         font-style: normal;
         font-weight: 900;
         line-height: 61px;
@@ -236,18 +243,18 @@ nav ul li a {
         background: rgba(21, 21, 21, 0.65);
         box-shadow: 0px 0px 0px 0px #312116;
         height: 100%;
-        padding-left: 50px;
+        padding-left: 25px;
         padding-right: 100px;
     }
 
     .bg .logo .lg {
-        width: 50px;
-        height: 25px;
+        width: 40%;
+        height: auto;
         flex-shrink: 0;
     }
 
     .text-one {
-        width: 200px;
+        width: 300px;
         height: 58px;
         flex-shrink: 0;
         margin-top: 50px;
@@ -256,7 +263,7 @@ nav ul li a {
     .text-one p {
         color: #FFF;
         font-family: Montserrat;
-        font-size: 15px;
+        font-size: 20px !important;
         font-style: normal;
         font-weight: 900;
         line-height: 30px;
@@ -265,24 +272,23 @@ nav ul li a {
     .text-one span {
         color: #FFF;
         font-family: Montserrat;
-        font-size: 10px;
+        font-size: 14px;
         font-style: normal;
         font-weight: 400;
         line-height: normal;
     }
 
     .logo .rectangle {
-        width: 30vh;
+        width: 40vh;
         height: auto;
         flex-shrink: 0;
         background-color: #1B1B1B;
         border-radius: 16px;
-        padding: 40px;
         margin-top: 50px;
     }
 
     .logo .row .card {
-        width: 8rem !important;
+        width: 14rem !important;
         background: #282828;
         color: white;
         margin: 25px auto !important;
@@ -292,7 +298,7 @@ nav ul li a {
     p {
         color: #FFF;
         font-family: Montserrat;
-        font-size: 10px !important;
+        font-size: 15px !important;
         font-style: normal;
         font-weight: 900;
         line-height: 29px;
@@ -303,7 +309,7 @@ nav ul li a {
     p {
         color: #FFF;
         font-family: Montserrat;
-        font-size: 10px !important;
+        font-size: 14px !important;
         font-style: normal;
         font-weight: 400;
         line-height: 29px;
